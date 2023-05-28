@@ -1,0 +1,228 @@
+.nav 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(51, 146, 172);
+    padding: 5px 25px;
+    border-radius: 5px;
+    max-width: 1000px;
+    margin: 20px auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+  
+.titre 
+{
+    display: inline-block;
+    padding: 0px 10px;
+    border-radius: 20px;
+    background-color: rgb(10, 80, 100);
+    font-size: 20px;
+    color: rgba(255, 255, 255);
+}
+  
+.nav_liste 
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+    list-style-type: none;
+}
+  
+.nav_liste li 
+{
+    margin-left: 50px;
+    border: 2px rgba(255, 255, 255);
+}
+  
+.nav_btn 
+{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: rgba(255, 255, 255);
+    
+    transition: all 0.3s ease-in-out;
+}
+  
+.nav_btn:hover 
+{
+    background-color: rgb(10, 80, 100);
+    transform: scale(1.1);
+}
+
+.presentation
+{
+    background-color: rgba(51, 146, 172, 0.100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    border-radius: 5px;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+  
+.intro
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+  
+.intro img 
+{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+  
+.intro-texte
+{
+    margin-left: 30px;
+}
+  
+.intro-texte h2 
+{
+    font-size: 40px;
+}
+  
+.intro-texte h3
+{
+    font-size: 24px;
+}
+  
+.presentation-boite
+{
+    width: 80%;
+    max-width: 800px;
+}
+  
+.presentation-texte
+{
+    background-color: rgb(51, 51, 51, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+}
+  
+.presentation-texte p 
+{
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.titre-projets
+{
+    margin-top: 75px;
+    background-color: rgb(58, 58, 58, 0.1);
+    width: 100%;
+}
+
+.titre-projets h1
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+
+.projets
+{
+    background-color: rgba(51, 146, 172, 0.100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    border-radius: 5px;
+    max-width: 2000px;
+    margin: 0 auto;
+    
+}
+  
+.projet 
+{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(51, 51, 51, 0.1);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+  
+.projet-titre 
+{
+    padding: 20px;
+    background-color: #ccc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 24px;
+}
+  
+.projet-info 
+{
+    padding: 20px;
+    font-size: 18px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .social {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social h3 {
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .github-logo {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/38/38401.png");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+  
+  .github-logo:hover {
+    opacity: 0.8;
+  }
+  
+  .contact .btn {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  
+  .credits {
+    font-size: 12px;
+  }
+  
