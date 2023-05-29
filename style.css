@@ -133,7 +133,6 @@ titre-projets h1
     font-size: 40px;
 }
 
-
 projets
 {
     background-color: rgba(51, 146, 172, 0.100);
@@ -175,6 +174,66 @@ projet-info
     border-bottom-right-radius: 10px;
 }
 
+competences 
+{
+    background-color: rgba(51, 146, 172, 0.100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+titre-competences 
+{
+    margin-top: 75px;
+    background-color: rgb(58, 58, 58, 0.1);
+    width: 100%;
+}
+
+titre-competences h1 
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+competence 
+{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(51, 51, 51, 0.1);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+competence-titre 
+{
+    padding: 20px;
+    background-color: rgb(204, 204, 204);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 24px;
+}
+
+.barre-progression 
+{
+    background-color: #f2f2f2;
+    height: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.progression 
+{
+    height: 100%;
+    background-color: #51a9b9;
+}
+  
 footer 
 {
     display: flex;
@@ -183,7 +242,7 @@ footer
     background-color: rgb(85, 85, 85);
     padding: 5px 25px;
     border-radius: 5px;
-    max-width: 2000px;
+    max-width: 1500px;
     margin: 20px auto;
     position:absolute;
     top: 1000;
