@@ -1,4 +1,4 @@
-.nav 
+nav 
 {
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,7 @@
     right: 0;
 }
   
-.titre 
+titre 
 {
     display: inline-block;
     padding: 0px 10px;
@@ -60,7 +60,7 @@
     transform: scale(1.1);
 }
 
-.presentation
+presentation
 {
     background-color: rgba(51, 146, 172, 0.100);
     display: flex;
@@ -72,7 +72,7 @@
     margin: 0 auto;
 }
   
-.intro
+intro
 {
     margin-top: 100px;
     display: flex;
@@ -81,7 +81,7 @@
     margin-bottom: 30px;
 }
   
-.intro img 
+intro img 
 {
     width: 250px;
     height: 250px;
@@ -89,49 +89,45 @@
     border-radius: 20px;
 }
   
-.intro-texte
+intro-texte
 {
     margin-left: 30px;
 }
   
-.intro-texte h2 
+intro-texte h2 
 {
     font-size: 40px;
 }
   
-.intro-texte h3
+intro-texte h3
 {
     font-size: 24px;
 }
   
-.presentation-boite
+presentation-boite
 {
     width: 80%;
     max-width: 800px;
-}
-  
-.presentation-texte
-{
     background-color: rgb(51, 51, 51, 0.1);
     border-radius: 15px;
     padding: 30px;
 }
   
-.presentation-texte p 
+presentation-texte p 
 {
     font-size: 1.2em;
     line-height: 1.5;
     margin: 0;
 }
 
-.titre-projets
+titre-projets
 {
     margin-top: 75px;
     background-color: rgb(58, 58, 58, 0.1);
     width: 100%;
 }
 
-.titre-projets h1
+titre-projets h1
 {
     text-align: center;
     color: rgb(0, 0, 0);
@@ -139,7 +135,7 @@
 }
 
 
-.projets
+projets
 {
     background-color: rgba(51, 146, 172, 0.100);
     display: flex;
@@ -152,7 +148,7 @@
     
 }
   
-.projet 
+projet 
 {
     max-width: 800px;
     margin: 0 auto;
@@ -164,7 +160,7 @@
     margin-top: 50px;
 }
   
-.projet-titre 
+projet-titre 
 {
     padding: 20px;
     background-color: #ccc;
@@ -173,7 +169,7 @@
     font-size: 24px;
 }
   
-.projet-info 
+projet-info 
 {
     padding: 20px;
     font-size: 18px;
@@ -181,48 +177,61 @@
     border-bottom-right-radius: 10px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
+footer 
+{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    font-size: 14px;
-  }
-  
-  .social {
+    align-items: center;
+    background-color: rgb(85, 85, 85);
+    padding: 5px 25px;
+    border-radius: 5px;
+    max-width: 1000px;
+    margin: 20px auto;
+    position:absolute;
+    top: 1000;
+    left: 0;
+    right: 0;
+}
+
+social 
+{
     display: flex;
     align-items: center;
-  }
+}
   
-  .social h3 {
+social h3 
+{
     margin-right: 10px;
     margin-bottom: 5px;
-  }
+}
   
-  .github-logo {
+.github-logo 
+{
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-image: url("https://cdn-icons-png.flaticon.com/512/38/38401.png");
-    background-size: cover;
-    background-position: center;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/25/25231.png");
+   
     cursor: pointer;
-  }
+}
   
-  .github-logo:hover {
+.github-logo:hover 
+{
     opacity: 0.8;
-  }
+}
   
-  .contact .btn {
+contact .btn 
+{
     background-color: #fff;
     color: #333;
     padding: 10px 20px;
     border-radius: 20px;
     text-decoration: none;
-  }
+}
   
-  .credits {
+credits 
+{
     font-size: 12px;
-  }
+} 
+  
   
