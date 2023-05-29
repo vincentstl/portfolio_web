@@ -68,7 +68,6 @@ presentation
     align-items: center;
     padding: 50px 0px;
     border-radius: 5px;
-    max-width: 2000px;
     margin: 0 auto;
 }
   
@@ -203,6 +202,7 @@ social h3
 {
     margin-right: 10px;
     margin-bottom: 5px;
+    color: rgb(255, 255, 255);
 }
   
 .github-logo 
@@ -223,8 +223,8 @@ social h3
   
 contact .btn 
 {
-    background-color: #fff;
-    color: #333;
+    background-color: rgb(255, 255, 255);
+    color: rgb(32, 32, 32);
     padding: 10px 20px;
     border-radius: 20px;
     text-decoration: none;
